@@ -11,6 +11,7 @@ namespace HayaTeknolojiCRM.Concreate
 {
     public class DepartmentManager : IDepartmentService
     {
+    //Sabiha was here
         private readonly IDepartmentDal _departmentDal;
         public DepartmentManager(IDepartmentDal departmentDal)
         {
